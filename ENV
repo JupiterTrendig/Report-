@@ -1,0 +1,9 @@
+# Telegram Bot Configuration
+BOT_TOKEN=your_new_token_here_after_revoking
+ADMIN_ID=8695392236
+
+# Optional: Database settings
+DB_FILE=token_updates.json
+
+# Optional: Notification channel
+ADMIN_CHANNEL=@your_admin_channel
