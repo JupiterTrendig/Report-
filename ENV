@@ -1,9 +1,5 @@
-# Telegram Bot Configuration
-BOT_TOKEN=your_new_token_here_after_revoking
+# Create .env file (replace with your NEW token)
+cat > .env << 'EOF'
+BOT_TOKEN=8646003881:AAGp1xQgEcSWDk8xaGcZzvFOqCiYrV8_jxY
 ADMIN_ID=8695392236
-
-# Optional: Database settings
-DB_FILE=token_updates.json
-
-# Optional: Notification channel
-ADMIN_CHANNEL=@your_admin_channel
+EOF
